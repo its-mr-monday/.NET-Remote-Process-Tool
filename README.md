@@ -1,4 +1,4 @@
-# DLProcessTool Setup Guide
+# Remote Process Tool Setup Guide
 
 # Linux Server Guide
 
