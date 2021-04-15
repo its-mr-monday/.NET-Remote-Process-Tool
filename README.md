@@ -8,6 +8,8 @@
 
 	- Linux server ELF is found in Server/linux-x64/publish/DLServer
 
+	- Inside the ELF folder create 3 directories called "screenshots", "uploads", "downloads"
+
 	- chmod DLServer and run it by calling ./DLServer [port]
 
 	- This will start a TcpListener on port "port" *If port is left blank the default port is set to 8080*
@@ -16,6 +18,8 @@
 # Windows Server Guide
 
 	- Windows server EXE is found in Server\win-x64\publish\DLServer.exe
+
+	- Inside the EXE folder create 3 directories called "screenshots", "uploads", "downloads"
 
 	- This can be run by calling .\DLServer.exe [port]
 
