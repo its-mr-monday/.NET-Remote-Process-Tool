@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Simple shell script for DLProcess reverse powershell payload
+# Simple shell script for reverse powershell payload
 
 x=1
 
