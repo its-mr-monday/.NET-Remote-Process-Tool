@@ -1,4 +1,6 @@
 # Remote Process Tool
+[![build succeeded](https://img.shields.io/badge/build-succeeded-brightgreen.svg)](https://github.com/its-mr-monday/.NET-Remote-Process-Tool/releases/tag/1.0.0)
+
 	Remote Process Tool is a C# .Net Core Server and .Net Framework Client
 	The tool can be staged to be run in targets memory
 	The tool can also be executed through a Cobalt Strike beacon
