@@ -10,7 +10,7 @@
 
 	- Linux server ELF is found in Server/linux-x64/publish/DLServer
 
-	- Inside the ELF folder create 3 directories called "screenshots", "uploads", "downloads"
+	- Inside the ELF folder create 4 directories called "screenshots", "uploads", "downloads", "exe"
 
 	- chmod DLServer and run it by calling ./DLServer [port]
 
@@ -21,7 +21,7 @@
 
 	- Windows server EXE is found in Server\win-x64\publish\DLServer.exe
 
-	- Inside the EXE folder create 3 directories called "screenshots", "uploads", "downloads"
+	- Inside the EXE folder create 4 directories called "screenshots", "uploads", "downloads", "exe"
 
 	- This can be run by calling .\DLServer.exe [port]
 
